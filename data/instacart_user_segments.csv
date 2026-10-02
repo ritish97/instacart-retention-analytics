@@ -1,0 +1,501 @@
+user_id,recency_days,avg_lapse,frequency,total_items_bought,R_score,F_score,M_score,Customer_Segment
+1,20,22.75,5,39,2,2,3,Churned / Dormant
+2,48,8.785714285714286,15,153,2,3,3,At Risk (High Volume)
+3,17,14.2,6,38,3,2,2,Occasional Shoppers
+4,15,11.666666666666666,4,24,3,2,2,Occasional Shoppers
+5,3,8.2,26,254,4,4,4,Loyal Power Users
+6,10,13.666666666666666,4,27,3,2,2,Occasional Shoppers
+7,9,13.0,2,11,3,1,1,Occasional Shoppers
+8,3,15.4,6,39,4,2,3,Occasional Shoppers
+9,4,7.588235294117647,18,166,4,3,3,Loyal Power Users
+10,43,20.695652173913043,24,278,2,4,4,At Risk (High Volume)
+11,53,13.75,17,200,2,3,4,At Risk (High Volume)
+12,21,18.333333333333332,4,24,2,2,2,Churned / Dormant
+13,60,,1,3,1,1,1,Churned / Dormant
+14,13,17.0,2,11,3,1,1,Occasional Shoppers
+15,58,8.692307692307692,14,141,1,3,3,At Risk (High Volume)
+16,6,6.333333333333333,25,215,4,4,4,Loyal Power Users
+17,138,11.0,6,34,1,2,2,Churned / Dormant
+18,6,9.090909090909092,12,115,4,3,3,Loyal Power Users
+19,12,,1,6,3,1,1,Occasional Shoppers
+20,119,13.0,2,8,1,1,1,Churned / Dormant
+21,5,19.5,5,29,4,2,2,Occasional Shoppers
+22,32,13.0,10,113,2,3,3,At Risk (High Volume)
+23,16,,1,9,3,1,1,Occasional Shoppers
+24,10,17.0,3,23,3,1,2,Occasional Shoppers
+25,11,15.0,3,19,3,1,2,Occasional Shoppers
+26,11,7.296296296296297,28,243,3,4,4,Loyal Power Users
+27,60,11.19047619047619,22,212,1,4,4,At Risk (High Volume)
+28,12,3.4444444444444446,19,186,3,4,4,Loyal Power Users
+29,6,6.538461538461538,14,134,4,3,3,Loyal Power Users
+30,137,,1,3,1,1,1,Churned / Dormant
+31,13,13.25,5,24,3,2,2,Occasional Shoppers
+32,3,22.333333333333332,4,36,4,2,2,Occasional Shoppers
+33,47,10.733333333333333,16,164,2,3,3,At Risk (High Volume)
+34,58,18.5,23,238,1,4,4,At Risk (High Volume)
+35,53,10.526315789473685,20,216,2,4,4,At Risk (High Volume)
+36,7,3.5454545454545454,12,124,4,3,3,Loyal Power Users
+37,6,6.5,13,108,4,3,3,Loyal Power Users
+38,73,,1,7,1,1,1,Churned / Dormant
+39,8,6.9523809523809526,22,190,3,4,4,Loyal Power Users
+40,50,16.666666666666668,4,23,2,2,2,Churned / Dormant
+41,45,10.23076923076923,14,130,2,3,3,At Risk (High Volume)
+42,16,14.0,2,15,3,1,1,Occasional Shoppers
+43,17,14.25,5,33,3,2,2,Occasional Shoppers
+44,44,19.38095238095238,22,234,2,4,4,At Risk (High Volume)
+45,5,23.0,3,15,4,1,1,Occasional Shoppers
+46,3,21.333333333333332,4,22,4,2,2,Occasional Shoppers
+47,32,15.166666666666666,13,144,2,3,3,At Risk (High Volume)
+48,32,17.904761904761905,22,245,2,4,4,At Risk (High Volume)
+49,122,13.0,6,33,1,2,2,Churned / Dormant
+50,8,7.333333333333333,25,226,3,4,4,Loyal Power Users
+51,10,5.8125,17,156,3,3,3,Loyal Power Users
+52,2,5.173913043478261,24,207,4,4,4,Loyal Power Users
+53,23,21.0,2,9,2,1,1,Churned / Dormant
+54,113,20.0,2,5,1,1,1,Churned / Dormant
+55,14,19.75,5,33,3,2,2,Occasional Shoppers
+56,21,12.8,6,38,2,2,2,Churned / Dormant
+57,39,14.217391304347826,24,250,2,4,4,At Risk (High Volume)
+58,73,13.0,2,7,1,1,1,Churned / Dormant
+59,4,6.176470588235294,18,183,4,3,4,Loyal Power Users
+60,4,6.173913043478261,24,199,4,4,4,Loyal Power Users
+61,114,19.0,3,15,1,1,1,Churned / Dormant
+62,100,9.5,5,28,1,2,2,Churned / Dormant
+63,129,,1,2,1,1,1,Churned / Dormant
+64,6,,1,8,4,1,1,Occasional Shoppers
+65,102,,1,2,1,1,1,Churned / Dormant
+66,96,15.4,6,25,1,2,2,Churned / Dormant
+67,66,15.2,6,33,1,2,2,Churned / Dormant
+68,62,16.347826086956523,24,269,1,4,4,At Risk (High Volume)
+69,4,6.16,26,226,4,4,4,Loyal Power Users
+70,41,12.5,15,164,2,3,3,At Risk (High Volume)
+71,7,6.0,14,126,4,3,3,Loyal Power Users
+72,51,18.272727272727273,23,240,2,4,4,At Risk (High Volume)
+73,17,13.5,3,13,2,1,1,Churned / Dormant
+74,12,3.642857142857143,15,122,3,3,3,Loyal Power Users
+75,7,4.571428571428571,22,216,4,4,4,Loyal Power Users
+76,45,14.952380952380953,22,224,2,4,4,At Risk (High Volume)
+77,49,11.882352941176471,18,165,2,3,3,At Risk (High Volume)
+78,59,20.5,3,17,1,1,1,Churned / Dormant
+79,150,,1,2,1,1,1,Churned / Dormant
+80,5,24.25,5,42,4,2,3,Occasional Shoppers
+81,70,17.0,2,11,1,1,1,Churned / Dormant
+82,29,10.428571428571429,15,155,2,3,3,At Risk (High Volume)
+83,15,16.0,2,17,3,1,1,Occasional Shoppers
+84,11,5.0,17,139,3,3,3,Loyal Power Users
+85,11,5.230769230769231,14,118,3,3,3,Loyal Power Users
+86,6,6.166666666666667,19,190,4,4,4,Loyal Power Users
+87,10,17.666666666666668,4,23,3,2,2,Occasional Shoppers
+88,60,8.5625,17,161,1,3,3,At Risk (High Volume)
+89,8,4.0344827586206895,30,300,3,4,4,Loyal Power Users
+90,81,19.0,2,12,1,1,1,Churned / Dormant
+91,11,7.916666666666667,25,239,3,4,4,Loyal Power Users
+92,3,19.0,2,6,4,1,1,Occasional Shoppers
+93,49,17.38095238095238,22,225,2,4,4,At Risk (High Volume)
+94,33,15.25,13,135,2,3,3,At Risk (High Volume)
+95,56,9.181818181818182,12,124,2,3,3,At Risk (High Volume)
+96,57,17.5,3,17,1,1,1,Churned / Dormant
+97,24,10.666666666666666,10,111,2,3,3,At Risk (High Volume)
+98,6,4.769230769230769,27,236,4,4,4,Loyal Power Users
+99,4,6.130434782608695,24,220,4,4,4,Loyal Power Users
+100,9,,1,4,3,1,1,Occasional Shoppers
+101,15,27.0,2,8,3,1,1,Occasional Shoppers
+102,11,23.25,5,28,3,2,2,Occasional Shoppers
+103,59,8.461538461538462,14,131,1,3,3,At Risk (High Volume)
+104,15,18.0,5,32,3,2,2,Occasional Shoppers
+105,6,12.0,4,21,4,2,2,Occasional Shoppers
+106,7,21.333333333333332,4,30,4,2,2,Occasional Shoppers
+107,49,17.11764705882353,18,186,2,3,4,At Risk (High Volume)
+108,60,17.90909090909091,23,228,1,4,4,At Risk (High Volume)
+109,7,4.0588235294117645,18,155,4,3,3,Loyal Power Users
+110,14,,1,10,3,1,1,Occasional Shoppers
+111,31,15.590909090909092,23,214,2,4,4,At Risk (High Volume)
+112,6,7.894736842105263,20,180,4,4,4,Loyal Power Users
+113,38,11.444444444444445,10,116,2,3,3,At Risk (High Volume)
+114,132,21.6,6,33,1,2,2,Churned / Dormant
+115,3,6.785714285714286,15,141,4,3,3,Loyal Power Users
+116,14,20.0,2,14,3,1,1,Occasional Shoppers
+117,11,15.6,6,40,3,2,3,Occasional Shoppers
+118,17,,1,8,2,1,1,Churned / Dormant
+119,54,9.470588235294118,18,181,2,3,4,At Risk (High Volume)
+120,144,20.0,4,25,1,2,2,Churned / Dormant
+121,109,13.4,6,28,1,2,2,Churned / Dormant
+122,92,,1,7,1,1,1,Churned / Dormant
+123,10,8.0,20,182,3,4,4,Loyal Power Users
+124,51,14.5,19,182,2,4,4,At Risk (High Volume)
+125,8,4.7894736842105265,20,176,3,4,3,Loyal Power Users
+126,125,24.0,2,6,1,1,1,Churned / Dormant
+127,60,17.238095238095237,22,222,1,4,4,At Risk (High Volume)
+128,10,7.105263157894737,20,172,3,4,3,Loyal Power Users
+129,7,3.8,21,196,4,4,4,Loyal Power Users
+130,87,,1,3,1,1,1,Churned / Dormant
+131,14,6.647058823529412,18,150,3,3,3,Loyal Power Users
+132,20,,1,9,2,1,1,Churned / Dormant
+133,136,15.25,5,21,1,2,2,Churned / Dormant
+134,38,15.4375,17,170,2,3,3,At Risk (High Volume)
+135,122,12.5,3,21,1,1,2,Churned / Dormant
+136,3,7.2272727272727275,23,219,4,4,4,Loyal Power Users
+137,4,20.0,4,31,4,2,2,Occasional Shoppers
+138,110,,1,3,1,1,1,Churned / Dormant
+139,20,22.333333333333332,4,23,2,2,2,Churned / Dormant
+140,6,6.722222222222222,19,156,4,4,3,Loyal Power Users
+141,110,16.0,2,8,1,1,1,Churned / Dormant
+142,125,14.0,2,10,1,1,1,Churned / Dormant
+143,20,17.0,2,15,2,1,1,Churned / Dormant
+144,69,,1,2,1,1,1,Churned / Dormant
+145,99,15.4,6,27,1,2,2,Churned / Dormant
+146,45,9.0,10,90,2,3,3,At Risk (High Volume)
+147,28,16.142857142857142,15,165,2,3,3,At Risk (High Volume)
+148,66,11.0,3,8,1,1,1,Churned / Dormant
+149,53,8.5,11,96,2,3,3,At Risk (High Volume)
+150,7,8.266666666666667,16,165,4,3,3,Loyal Power Users
+151,11,21.0,6,29,3,2,2,Occasional Shoppers
+152,11,20.5,3,13,3,1,1,Occasional Shoppers
+153,7,5.76,26,259,4,4,4,Loyal Power Users
+154,137,12.0,4,23,1,2,2,Churned / Dormant
+155,1,6.6,21,188,4,4,4,Loyal Power Users
+156,137,9.666666666666666,4,24,1,2,2,Churned / Dormant
+157,38,12.31578947368421,20,220,2,4,4,At Risk (High Volume)
+158,67,20.2,6,25,1,2,2,Churned / Dormant
+159,17,23.0,2,12,2,1,1,Churned / Dormant
+160,4,,1,5,4,1,1,Occasional Shoppers
+161,8,4.285714285714286,22,194,3,4,4,Loyal Power Users
+162,21,,1,6,2,1,1,Churned / Dormant
+163,4,6.909090909090909,12,119,4,3,3,Loyal Power Users
+164,6,7.791666666666667,25,202,4,4,4,Loyal Power Users
+165,64,13.0,2,13,1,1,1,Churned / Dormant
+166,32,13.0625,17,173,2,3,3,At Risk (High Volume)
+167,18,14.5,3,15,2,1,1,Churned / Dormant
+168,3,16.666666666666668,4,28,4,2,2,Occasional Shoppers
+169,36,20.625,25,260,2,4,4,At Risk (High Volume)
+170,7,19.0,2,13,4,1,1,Occasional Shoppers
+171,43,18.045454545454547,23,216,2,4,4,At Risk (High Volume)
+172,121,14.333333333333334,4,18,1,2,2,Churned / Dormant
+173,53,16.652173913043477,24,272,2,4,4,At Risk (High Volume)
+174,18,20.0,2,10,2,1,1,Churned / Dormant
+175,12,7.0,24,213,3,4,4,Loyal Power Users
+176,10,4.92,26,215,3,4,4,Loyal Power Users
+177,27,16.9375,17,179,2,3,4,At Risk (High Volume)
+178,12,24.0,2,5,3,1,1,Occasional Shoppers
+179,6,24.0,4,25,4,2,2,Occasional Shoppers
+180,8,13.0,2,7,3,1,1,Occasional Shoppers
+181,4,,1,5,4,1,1,Occasional Shoppers
+182,6,11.2,6,40,4,2,3,Occasional Shoppers
+183,101,16.25,5,16,1,2,1,Churned / Dormant
+184,50,18.541666666666668,25,249,2,4,4,At Risk (High Volume)
+185,4,12.75,5,22,4,2,2,Occasional Shoppers
+186,52,17.2,6,25,2,2,2,Churned / Dormant
+187,62,21.08695652173913,24,220,1,4,4,At Risk (High Volume)
+188,11,3.875,17,140,3,3,3,Loyal Power Users
+189,17,14.5,3,19,2,1,2,Churned / Dormant
+190,36,11.4375,17,171,2,3,3,At Risk (High Volume)
+191,11,23.0,2,11,3,1,1,Occasional Shoppers
+192,10,6.75,13,125,3,3,3,Loyal Power Users
+193,7,3.814814814814815,28,278,4,4,4,Loyal Power Users
+194,1,19.0,3,18,4,1,2,Occasional Shoppers
+195,7,4.0,27,245,4,4,4,Loyal Power Users
+196,7,8.125,17,150,4,3,3,Loyal Power Users
+197,119,14.8,6,24,1,2,2,Churned / Dormant
+198,7,,1,3,4,1,1,Occasional Shoppers
+199,6,8.19047619047619,22,198,4,4,4,Loyal Power Users
+200,29,19.952380952380953,22,206,2,4,4,At Risk (High Volume)
+201,18,13.75,5,29,2,2,2,Churned / Dormant
+202,12,13.333333333333334,4,21,3,2,2,Occasional Shoppers
+203,123,19.0,2,11,1,1,1,Churned / Dormant
+204,13,4.846153846153846,27,224,3,4,4,Loyal Power Users
+205,11,6.5,17,181,3,3,4,Loyal Power Users
+206,10,7.7407407407407405,28,258,3,4,4,Loyal Power Users
+207,6,6.625,25,224,4,4,4,Loyal Power Users
+208,96,17.0,2,12,1,1,1,Churned / Dormant
+209,3,3.8125,17,149,4,3,3,Loyal Power Users
+210,134,11.333333333333334,4,21,1,2,2,Churned / Dormant
+211,10,14.0,6,36,3,2,2,Occasional Shoppers
+212,142,12.333333333333334,4,20,1,2,2,Churned / Dormant
+213,11,4.05,21,202,3,4,4,Loyal Power Users
+214,14,,1,6,3,1,1,Occasional Shoppers
+215,13,,1,6,3,1,1,Occasional Shoppers
+216,13,25.666666666666668,4,23,3,2,2,Occasional Shoppers
+217,5,3.65,21,188,4,4,4,Loyal Power Users
+218,10,5.3478260869565215,24,224,3,4,4,Loyal Power Users
+219,17,22.0,3,19,2,1,2,Churned / Dormant
+220,63,16.933333333333334,16,167,1,3,3,At Risk (High Volume)
+221,40,14.0,18,180,2,3,4,At Risk (High Volume)
+222,146,20.6,6,25,1,2,2,Churned / Dormant
+223,123,17.0,2,9,1,1,1,Churned / Dormant
+224,6,23.0,5,35,4,2,2,Occasional Shoppers
+225,36,9.75,17,172,2,3,3,At Risk (High Volume)
+226,14,14.0,2,9,3,1,1,Occasional Shoppers
+227,13,6.7727272727272725,23,234,3,4,4,Loyal Power Users
+228,105,,1,9,1,1,1,Churned / Dormant
+229,102,,1,6,1,1,1,Churned / Dormant
+230,12,6.555555555555555,19,185,3,4,4,Loyal Power Users
+231,8,8.10344827586207,30,301,3,4,4,Loyal Power Users
+232,41,19.166666666666668,25,251,2,4,4,At Risk (High Volume)
+233,21,,1,4,2,1,1,Churned / Dormant
+234,50,22.0,2,8,2,1,1,Churned / Dormant
+235,4,13.5,3,15,4,1,1,Occasional Shoppers
+236,14,14.0,5,49,3,2,3,Occasional Shoppers
+237,52,14.416666666666666,25,238,2,4,4,At Risk (High Volume)
+238,1,22.333333333333332,4,14,4,2,1,Occasional Shoppers
+239,5,6.0625,17,179,4,3,4,Loyal Power Users
+240,7,6.321428571428571,29,259,4,4,4,Loyal Power Users
+241,10,24.0,5,35,3,2,2,Occasional Shoppers
+242,10,,1,5,3,1,1,Occasional Shoppers
+243,11,7.583333333333333,13,112,3,3,3,Loyal Power Users
+244,85,14.333333333333334,4,28,1,2,2,Churned / Dormant
+245,125,17.25,5,14,1,2,1,Churned / Dormant
+246,18,20.0,3,17,2,1,1,Churned / Dormant
+247,136,,1,6,1,1,1,Churned / Dormant
+248,57,10.23076923076923,14,131,1,3,3,At Risk (High Volume)
+249,39,10.1875,17,173,2,3,3,At Risk (High Volume)
+250,46,10.666666666666666,10,85,2,3,3,At Risk (High Volume)
+251,84,,1,5,1,1,1,Churned / Dormant
+252,8,,1,5,3,1,1,Occasional Shoppers
+253,52,10.76923076923077,14,135,2,3,3,At Risk (High Volume)
+254,2,7.2105263157894735,20,201,4,4,4,Loyal Power Users
+255,6,4.678571428571429,29,275,4,4,4,Loyal Power Users
+256,13,14.6,6,43,3,2,3,Occasional Shoppers
+257,5,17.0,4,28,4,2,2,Occasional Shoppers
+258,8,8.333333333333334,16,146,3,3,3,Loyal Power Users
+259,4,8.407407407407407,28,279,4,4,4,Loyal Power Users
+260,102,11.666666666666666,4,22,1,2,2,Churned / Dormant
+261,5,8.133333333333333,16,134,4,3,3,Loyal Power Users
+262,15,26.0,4,30,3,2,2,Occasional Shoppers
+263,48,12.071428571428571,15,134,2,3,3,At Risk (High Volume)
+264,8,7.5,19,174,3,4,3,Loyal Power Users
+265,6,,1,6,4,1,1,Occasional Shoppers
+266,7,7.571428571428571,22,206,4,4,4,Loyal Power Users
+267,50,8.428571428571429,15,152,2,3,3,At Risk (High Volume)
+268,8,5.923076923076923,14,114,3,3,3,Loyal Power Users
+269,1,4.904761904761905,22,184,4,4,4,Loyal Power Users
+270,3,7.4,26,207,4,4,4,Loyal Power Users
+271,2,7.25,17,171,4,3,3,Loyal Power Users
+272,7,5.25,17,171,4,3,3,Loyal Power Users
+273,11,6.625,17,151,3,3,3,Loyal Power Users
+274,134,21.2,6,32,1,2,2,Churned / Dormant
+275,100,10.0,4,14,1,2,1,Churned / Dormant
+276,34,19.0,21,209,2,4,4,At Risk (High Volume)
+277,60,14.071428571428571,15,163,1,3,3,At Risk (High Volume)
+278,71,15.5,3,16,1,1,1,Churned / Dormant
+279,12,,1,5,3,1,1,Occasional Shoppers
+280,4,,1,8,4,1,1,Occasional Shoppers
+281,6,6.551724137931035,30,265,4,4,4,Loyal Power Users
+282,1,3.875,25,232,4,4,4,Loyal Power Users
+283,1,8.4,16,146,4,3,3,Loyal Power Users
+284,6,7.2,16,152,4,3,3,Loyal Power Users
+285,79,,1,5,1,1,1,Churned / Dormant
+286,39,12.6,11,114,2,3,3,At Risk (High Volume)
+287,5,5.2727272727272725,12,105,4,3,3,Loyal Power Users
+288,49,11.166666666666666,13,134,2,3,3,At Risk (High Volume)
+289,91,19.8,6,23,1,2,2,Churned / Dormant
+290,11,6.521739130434782,24,216,3,4,4,Loyal Power Users
+291,7,24.0,6,35,4,2,2,Occasional Shoppers
+292,6,6.2105263157894735,20,191,4,4,4,Loyal Power Users
+293,15,15.0,6,34,3,2,2,Occasional Shoppers
+294,8,6.526315789473684,20,181,3,4,4,Loyal Power Users
+295,4,,1,4,4,1,1,Occasional Shoppers
+296,10,11.666666666666666,4,38,3,2,3,Occasional Shoppers
+297,15,11.4,6,40,3,2,3,Occasional Shoppers
+298,17,12.0,2,20,2,1,2,Churned / Dormant
+299,20,,1,8,2,1,1,Churned / Dormant
+300,109,16.0,3,15,1,1,1,Churned / Dormant
+301,18,24.25,5,33,2,2,2,Churned / Dormant
+302,4,4.866666666666666,16,140,4,3,3,Loyal Power Users
+303,64,23.0,5,29,1,2,2,Churned / Dormant
+304,48,11.0,4,27,2,2,2,Churned / Dormant
+305,22,14.8,6,37,2,2,2,Churned / Dormant
+306,45,13.0,21,219,2,4,4,At Risk (High Volume)
+307,56,10.076923076923077,14,137,2,3,3,At Risk (High Volume)
+308,82,12.6,6,31,1,2,2,Churned / Dormant
+309,42,14.411764705882353,18,186,2,3,4,At Risk (High Volume)
+310,5,4.833333333333333,13,128,4,3,3,Loyal Power Users
+311,137,9.4,6,31,1,2,2,Churned / Dormant
+312,56,18.0,24,273,1,4,4,At Risk (High Volume)
+313,1,6.909090909090909,12,95,4,3,3,Loyal Power Users
+314,34,8.4,11,108,2,3,3,At Risk (High Volume)
+315,33,16.071428571428573,15,160,2,3,3,At Risk (High Volume)
+316,50,15.285714285714286,15,133,2,3,3,At Risk (High Volume)
+317,55,10.380952380952381,22,253,2,4,4,At Risk (High Volume)
+318,121,,1,7,1,1,1,Churned / Dormant
+319,59,12.210526315789474,20,175,1,4,3,At Risk (High Volume)
+320,15,23.2,6,42,3,2,3,Occasional Shoppers
+321,10,19.4,6,34,3,2,2,Occasional Shoppers
+322,83,11.5,3,9,1,1,1,Churned / Dormant
+323,40,18.85,21,220,2,4,4,At Risk (High Volume)
+324,48,,1,5,2,1,1,Churned / Dormant
+325,15,15.0,3,12,3,1,1,Occasional Shoppers
+326,50,14.0,2,10,2,1,1,Churned / Dormant
+327,16,15.0,2,17,3,1,1,Occasional Shoppers
+328,74,19.0,6,34,1,2,2,Churned / Dormant
+329,84,20.5,3,16,1,1,1,Churned / Dormant
+330,37,10.45,21,191,2,4,4,At Risk (High Volume)
+331,11,12.0,2,12,3,1,1,Occasional Shoppers
+332,10,6.260869565217392,24,228,3,4,4,Loyal Power Users
+333,4,20.0,4,19,4,2,2,Occasional Shoppers
+334,11,14.0,4,19,3,2,2,Occasional Shoppers
+335,6,5.5,17,155,4,3,3,Loyal Power Users
+336,89,11.0,5,28,1,2,2,Churned / Dormant
+337,10,5.52,26,234,3,4,4,Loyal Power Users
+338,17,21.25,5,26,2,2,2,Churned / Dormant
+339,12,5.714285714285714,15,140,3,3,3,Loyal Power Users
+340,13,20.4,6,35,3,2,2,Occasional Shoppers
+341,4,4.529411764705882,18,172,4,3,3,Loyal Power Users
+342,16,,1,5,3,1,1,Occasional Shoppers
+343,11,20.0,4,28,3,2,2,Occasional Shoppers
+344,119,15.6,6,24,1,2,2,Churned / Dormant
+345,14,,1,3,3,1,1,Occasional Shoppers
+346,23,,1,4,2,1,1,Churned / Dormant
+347,11,18.0,4,19,3,2,2,Occasional Shoppers
+348,45,12.545454545454545,12,132,2,3,3,At Risk (High Volume)
+349,123,20.0,3,12,1,1,1,Churned / Dormant
+350,10,7.214285714285714,29,249,3,4,4,Loyal Power Users
+351,45,,1,5,2,1,1,Churned / Dormant
+352,6,7.7894736842105265,20,179,4,4,4,Loyal Power Users
+353,117,11.666666666666666,4,19,1,2,2,Churned / Dormant
+354,98,18.5,5,22,1,2,2,Churned / Dormant
+355,42,10.625,17,189,2,3,4,At Risk (High Volume)
+356,123,21.2,6,26,1,2,2,Churned / Dormant
+357,5,22.666666666666668,4,23,4,2,2,Occasional Shoppers
+358,4,19.0,2,13,4,1,1,Occasional Shoppers
+359,60,16.0,6,29,1,2,2,Churned / Dormant
+360,137,11.5,3,16,1,1,1,Churned / Dormant
+361,13,14.0,2,11,3,1,1,Occasional Shoppers
+362,5,6.357142857142857,15,126,4,3,3,Loyal Power Users
+363,7,6.904761904761905,22,211,4,4,4,Loyal Power Users
+364,7,5.0,20,184,4,4,4,Loyal Power Users
+365,150,13.0,6,31,1,3,2,At Risk (High Volume)
+366,52,8.222222222222221,10,99,2,3,3,At Risk (High Volume)
+367,17,20.8,6,22,2,3,2,At Risk (High Volume)
+368,116,19.8,6,37,1,3,2,At Risk (High Volume)
+369,31,10.866666666666667,16,162,2,3,3,At Risk (High Volume)
+370,8,12.4,6,26,3,3,2,Loyal Power Users
+371,22,23.0,2,12,2,1,1,Churned / Dormant
+372,32,13.608695652173912,24,243,2,4,4,At Risk (High Volume)
+373,45,9.066666666666666,16,164,2,3,3,At Risk (High Volume)
+374,60,12.76923076923077,14,156,1,3,3,At Risk (High Volume)
+375,7,5.363636363636363,12,105,4,3,3,Loyal Power Users
+376,3,6.631578947368421,20,172,4,4,3,Loyal Power Users
+377,8,16.2,6,38,3,3,3,Loyal Power Users
+378,50,14.875,25,274,2,4,4,At Risk (High Volume)
+379,39,13.3,11,106,2,3,3,At Risk (High Volume)
+380,4,17.666666666666668,4,32,4,2,2,Occasional Shoppers
+381,95,20.0,4,19,1,2,2,Churned / Dormant
+382,13,12.0,2,11,3,1,1,Occasional Shoppers
+383,19,20.5,3,21,2,1,2,Churned / Dormant
+384,97,13.5,5,28,1,2,2,Churned / Dormant
+385,43,18.833333333333332,19,201,2,4,4,At Risk (High Volume)
+386,3,24.75,5,41,4,2,3,Occasional Shoppers
+387,9,,1,3,3,1,1,Occasional Shoppers
+388,11,20.0,4,17,3,2,1,Occasional Shoppers
+389,8,4.809523809523809,22,195,3,4,4,Loyal Power Users
+390,3,26.5,3,16,4,1,1,Occasional Shoppers
+391,116,8.0,2,9,1,1,1,Churned / Dormant
+392,7,4.2,16,154,4,3,3,Loyal Power Users
+393,77,11.0,3,18,1,1,2,Churned / Dormant
+394,85,11.5,5,22,1,2,2,Churned / Dormant
+395,6,5.620689655172414,30,248,4,4,4,Loyal Power Users
+396,25,10.222222222222221,10,97,2,3,3,At Risk (High Volume)
+397,18,22.4,6,45,2,3,3,At Risk (High Volume)
+398,40,21.333333333333332,25,269,2,4,4,At Risk (High Volume)
+399,58,18.17391304347826,24,261,1,4,4,At Risk (High Volume)
+400,46,9.777777777777779,10,105,2,3,3,At Risk (High Volume)
+401,37,15.705882352941176,18,183,2,3,4,At Risk (High Volume)
+402,6,16.25,5,36,4,2,2,Occasional Shoppers
+403,12,,1,5,3,1,1,Occasional Shoppers
+404,6,8.083333333333334,13,117,4,3,3,Loyal Power Users
+405,14,20.0,2,11,3,1,1,Occasional Shoppers
+406,10,18.75,5,28,3,2,2,Occasional Shoppers
+407,29,10.6,21,202,2,4,4,At Risk (High Volume)
+408,11,13.0,2,12,3,1,1,Occasional Shoppers
+409,6,6.892857142857143,29,263,4,4,4,Loyal Power Users
+410,8,13.25,5,20,3,2,2,Occasional Shoppers
+411,137,10.8,6,21,1,3,2,At Risk (High Volume)
+412,125,,1,6,1,1,1,Churned / Dormant
+413,5,3.9523809523809526,22,202,4,4,4,Loyal Power Users
+414,7,18.5,5,27,4,2,2,Occasional Shoppers
+415,8,4.416666666666667,13,124,3,3,3,Loyal Power Users
+416,7,3.84,26,236,4,4,4,Loyal Power Users
+417,1,8.407407407407407,28,242,4,4,4,Loyal Power Users
+418,7,14.4,6,42,4,3,3,Loyal Power Users
+419,3,7.12,26,250,4,4,4,Loyal Power Users
+420,13,13.6,6,32,3,3,2,Loyal Power Users
+421,118,22.5,3,18,1,1,2,Churned / Dormant
+422,7,6.76,26,222,4,4,4,Loyal Power Users
+423,8,4.185185185185185,28,237,3,4,4,Loyal Power Users
+424,5,5.153846153846154,14,103,4,3,3,Loyal Power Users
+425,80,9.25,5,21,1,2,2,Churned / Dormant
+426,18,11.5,3,15,2,1,1,Churned / Dormant
+427,4,8.333333333333334,25,237,4,4,4,Loyal Power Users
+428,10,,1,6,3,1,1,Occasional Shoppers
+429,6,6.0588235294117645,18,148,4,4,3,Loyal Power Users
+430,18,13.0,3,17,2,2,1,Churned / Dormant
+431,11,18.75,5,35,3,2,2,Occasional Shoppers
+432,22,25.5,3,17,2,2,2,Churned / Dormant
+433,8,20.0,5,31,3,2,2,Occasional Shoppers
+434,4,,1,7,4,1,1,Occasional Shoppers
+435,3,7.9411764705882355,18,169,4,4,3,Loyal Power Users
+436,11,6.791666666666667,25,192,3,4,4,Loyal Power Users
+437,6,4.357142857142857,15,131,4,3,3,Loyal Power Users
+438,137,20.75,5,27,1,2,2,Churned / Dormant
+439,3,14.0,4,27,4,2,2,Occasional Shoppers
+440,104,15.0,2,7,1,1,1,Churned / Dormant
+441,7,17.0,2,8,3,1,1,Occasional Shoppers
+442,4,5.666666666666667,16,164,4,3,3,Loyal Power Users
+443,24,24.0,3,20,2,2,2,Churned / Dormant
+444,11,7.444444444444445,19,165,3,4,3,Loyal Power Users
+445,56,17.764705882352942,18,192,1,4,4,At Risk (High Volume)
+446,3,15.5,3,16,4,2,1,Occasional Shoppers
+447,5,,1,7,4,1,1,Occasional Shoppers
+448,144,20.0,2,16,1,1,1,Churned / Dormant
+449,11,4.0,16,145,3,3,3,Loyal Power Users
+450,57,18.5,3,16,1,2,1,Churned / Dormant
+451,8,7.703703703703703,28,210,3,4,4,Loyal Power Users
+452,7,14.0,3,21,3,2,2,Occasional Shoppers
+453,11,23.5,3,15,3,2,1,Occasional Shoppers
+454,5,5.666666666666667,13,122,4,3,3,Loyal Power Users
+455,13,7.827586206896552,30,263,3,4,4,Loyal Power Users
+456,7,7.380952380952381,22,178,3,4,3,Loyal Power Users
+457,13,12.4,6,31,3,3,2,Loyal Power Users
+458,47,10.714285714285714,22,219,2,4,4,At Risk (High Volume)
+459,13,18.0,2,11,3,1,1,Occasional Shoppers
+460,111,11.0,2,3,1,1,1,Churned / Dormant
+461,81,9.0,5,23,1,2,2,Churned / Dormant
+462,6,8.444444444444445,19,185,4,4,4,Loyal Power Users
+463,14,17.0,3,20,3,2,2,Occasional Shoppers
+464,29,13.1,11,99,2,3,3,At Risk (High Volume)
+465,102,13.75,5,33,1,2,2,Churned / Dormant
+466,5,22.333333333333332,4,27,4,2,2,Occasional Shoppers
+467,126,14.8,6,32,1,3,2,At Risk (High Volume)
+468,19,24.333333333333332,4,31,2,2,2,Churned / Dormant
+469,1,6.555555555555555,19,180,4,4,4,Loyal Power Users
+470,135,,1,3,1,1,1,Churned / Dormant
+471,48,9.538461538461538,14,149,2,3,3,At Risk (High Volume)
+472,149,22.0,2,12,1,1,1,Churned / Dormant
+473,4,5.384615384615385,14,136,4,3,3,Loyal Power Users
+474,3,5.615384615384615,14,123,4,3,3,Loyal Power Users
+475,53,19.428571428571427,22,242,2,4,4,At Risk (High Volume)
+476,59,14.25,13,141,1,3,3,At Risk (High Volume)
+477,41,15.384615384615385,14,142,2,3,3,At Risk (High Volume)
+478,64,17.0,2,10,1,1,1,Churned / Dormant
+479,91,20.0,5,20,1,2,2,Churned / Dormant
+480,45,21.0,25,258,2,4,4,At Risk (High Volume)
+481,42,18.27777777777778,19,172,2,4,3,At Risk (High Volume)
+482,6,4.821428571428571,29,266,4,4,4,Loyal Power Users
+483,148,14.0,5,22,1,2,2,Churned / Dormant
+484,27,18.63157894736842,20,199,2,4,4,At Risk (High Volume)
+485,8,8.0,12,103,3,3,3,Loyal Power Users
+486,52,10.75,13,137,2,3,3,At Risk (High Volume)
+487,67,11.0,5,23,1,2,2,Churned / Dormant
+488,7,5.866666666666666,16,117,3,3,3,Loyal Power Users
+489,144,19.5,3,20,1,2,2,Churned / Dormant
+490,64,21.8,6,21,1,3,2,At Risk (High Volume)
+491,19,18.0,5,23,2,2,2,Churned / Dormant
+492,96,14.0,2,14,1,1,1,Churned / Dormant
+493,88,19.333333333333332,4,18,1,2,2,Churned / Dormant
+494,59,11.0,22,226,1,4,4,At Risk (High Volume)
+495,16,16.4,6,45,3,3,3,Loyal Power Users
+496,52,21.2,6,30,2,3,2,At Risk (High Volume)
+497,57,11.88888888888889,10,104,1,3,3,At Risk (High Volume)
+498,59,19.0,3,15,1,2,1,Churned / Dormant
+499,36,18.666666666666668,25,259,2,4,4,At Risk (High Volume)
+500,124,19.4,6,27,1,3,2,At Risk (High Volume)
