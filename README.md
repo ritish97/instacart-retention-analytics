@@ -1,3 +1,4 @@
+**Live demo:** https://instacart-retention-analytics-ewdh5ytgldjbj9g3xvafz3.streamlit.app/  
 # Instacart Customer Retention & Behavioral Churn Intelligence
 
 ## Project Overview
