@@ -1,19 +1,9 @@
-"""Synthetic Instacart-style data generator (reproducible, seed=42).
-
-Creates data/orders.csv and data/order_products.csv.
-Users follow four behavioural archetypes so the RFM segments have real signal.
-The archetype is NOT saved: segments are derived later by rfm_pipeline.py.
-order_dow follows Python's weekday(): 0 = Monday ... 6 = Sunday.
-"""
 from pathlib import Path
-
 import numpy as np
 import pandas as pd
-
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
-SNAPSHOT = pd.Timestamp("2026-06-30")  # latest possible order date
-
+SNAPSHOT = pd.Timestamp("2026-06-30") 
 # share of users | orders per user | base gap (days) | gap growth per order | days before snapshot of last order
 ARCHETYPES = {
     "loyal":      dict(share=.25, orders=(12, 30), gap=(4, 8),   growth=0.00, recency=(1, 10),   items=9,  reorder=.60, hours="evening"),
@@ -48,7 +38,6 @@ def build_dates(n, p, rng):
     if dates[-1] + pd.Timedelta(days=shift) > SNAPSHOT:
         shift -= 7
     return [d + pd.Timedelta(days=shift) for d in dates]
-
 
 def generate_data(num_users=500):
     rng = np.random.default_rng(42)
