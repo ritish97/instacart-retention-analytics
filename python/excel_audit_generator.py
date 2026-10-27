@@ -1,12 +1,8 @@
-"""Builds excel/excel_data_audit.xlsx (sample, data-quality audit, day-of-week summary)."""
 from pathlib import Path
-
 import pandas as pd
-
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR, EXCEL_DIR = ROOT / "data", ROOT / "excel"
 DAY_NAMES = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat", "Sun"]  # order_dow: 0 = Monday
-
 
 def generate_excel_audit():
     orders = pd.read_csv(DATA_DIR / "orders.csv", parse_dates=["order_date"])
