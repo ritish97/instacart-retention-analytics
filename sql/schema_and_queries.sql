@@ -1,10 +1,3 @@
--- ==============================================================================
--- Instacart Customer Retention & Behavioral Churn Intelligence
--- SQL Warehousing & Analytics Script  (written for PostgreSQL)
--- order_dow: 0 = Monday ... 6 = Sunday
--- recency_days: days from a user's last order to the snapshot date (latest order + 1 day)
--- ==============================================================================
-
 -- ------------------------------------------------------------------------------
 -- 1. SCHEMA
 -- ------------------------------------------------------------------------------
@@ -41,21 +34,9 @@ CREATE TABLE order_products (
     reordered         INT,
     PRIMARY KEY (order_id, product_id)
 );
-
--- ------------------------------------------------------------------------------
--- 2. DATA LOADING  (run these from psql in the project root folder, one line each,
---    in this order because of the foreign keys)
--- ------------------------------------------------------------------------------
-/*
-\copy user_segments FROM 'data/instacart_user_segments.csv' CSV HEADER
-\copy orders FROM 'data/orders.csv' CSV HEADER
-\copy order_products FROM 'data/order_products.csv' CSV HEADER
-*/
-
 -- ------------------------------------------------------------------------------
 -- 3. ANALYTICAL QUERIES
 -- ------------------------------------------------------------------------------
-
 -- Query 1: Segment breakdown
 SELECT
     Customer_Segment,
@@ -66,8 +47,6 @@ SELECT
 FROM user_segments
 GROUP BY Customer_Segment
 ORDER BY total_users DESC;
-
-
 -- Query 2: Rolling interval lag analysis (churn signal)
 -- Flags an order when its gap is more than 25% longer than the average of the user's previous 3 gaps
 -- (current row excluded). The 25% threshold filters out ordinary day-to-day noise.
@@ -98,8 +77,6 @@ SELECT
 FROM RollingLapse r
 JOIN user_segments u ON r.user_id = u.user_id
 ORDER BY r.user_id, r.order_number;
-
-
 -- Query 2b: Per-user interval trend (stronger churn signal than the per-order flag above)
 -- Compares each user's last 3 gaps with all their earlier gaps. Needs at least 3 earlier gaps.
 WITH Gaps AS (
@@ -130,8 +107,6 @@ FROM Trend t
 JOIN user_segments u ON t.user_id = u.user_id
 WHERE t.earlier_gaps >= 3
 ORDER BY t.user_id;
-
-
 -- Query 3: Peak ordering hour for each segment and day of week
 -- ROW_NUMBER (not RANK) so exactly one row is returned per segment/day; ties go to the earlier hour.
 WITH HourCounts AS (
