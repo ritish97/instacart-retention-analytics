@@ -1,17 +1,7 @@
-"""RFM & churn engine: reads data/orders.csv + data/order_products.csv,
-writes data/instacart_user_segments.csv.
-
-Recency = days from the user's LAST order to a snapshot date (latest order date + 1 day).
-Users with a single order have no purchase gap, so avg_lapse is left empty for them.
-"""
 from pathlib import Path
-
 import pandas as pd
-
 ROOT = Path(__file__).resolve().parent.parent
 DATA_DIR = ROOT / "data"
-
-
 def segment_user(row):
     r, f = row["R_score"], row["F_score"]
     if r >= 3 and f >= 3:
@@ -21,7 +11,6 @@ def segment_user(row):
     if r <= 2 and f <= 2:
         return "Churned / Dormant"
     return "Occasional Shoppers"
-
 
 def run_rfm_pipeline():
     orders = pd.read_csv(DATA_DIR / "orders.csv", parse_dates=["order_date"])
